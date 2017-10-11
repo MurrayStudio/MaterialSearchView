@@ -404,7 +404,7 @@ public class MaterialSearchView extends FrameLayout implements Filter.FilterList
     public void setAdapter(ListAdapter adapter) {
         mAdapter = adapter;
         mSuggestionsListView.setAdapter(adapter);
-        startFilter(mSearchSrcTextView.getText());
+        //startFilter(mSearchSrcTextView.getText());
     }
 
     /**
